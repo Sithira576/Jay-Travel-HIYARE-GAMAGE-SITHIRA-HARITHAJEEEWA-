@@ -315,23 +315,23 @@
         <h2>TOP DESTINATIONS</h2>
         <div class="destination">
             <h3>Sri Lanka</h3>
-            <img src="images/Sri Lanka.jpg" alt="Sri Lanka">
+            <img src="images/Sri Lanka.jpg" alt="Sri Lanka" id="sri-lanka">
         </div>
         <div class="destination">
             <h3>Rome</h3>
-            <img src="images/Rome.jpg" alt="Rome">
+            <img src="images/Rome.jpg" alt="Rome" id="rome">
         </div>
         <div class="destination">
             <h3>Maldives</h3>
-            <img src="images/Maldives.jpg" alt="Maldives">
+            <img src="images/Maldives.jpg" alt="Maldives" id="maldives">
         </div>
         <div class="destination">
             <h3>Switzerland</h3>
-            <img src="images/Switzerland.jpg" alt="Switzerland">
+            <img src="images/Switzerland.jpg" alt="Switzerland" id="switzerland">
         </div>
         <div class="destination">
             <h3>Thailand</h3>
-            <img src="images/Thailand.jpg" alt="Thailand">
+            <img src="images/Thailand.jpg" alt="Thailand" id="thailand">
         </div>
     </div>
 
@@ -461,5 +461,29 @@
             <p>Copyright &copy; 2020 - SLIIT WEB DEVELOPMENT - All rights reserved</p>
         </div>
     </footer>
+
+    <script>
+        
+        document.getElementById('sri-lanka').addEventListener('click', function() {
+            window.open('https://en.wikipedia.org/wiki/Sri_Lanka', '_blank');
+        });
+
+        document.getElementById('rome').addEventListener('click', function() {
+            window.open('https://en.wikipedia.org/wiki/Rome', '_blank');
+        });
+
+        document.getElementById('maldives').addEventListener('click', function() {
+            window.open('https://en.wikipedia.org/wiki/Maldives', '_blank');
+        });
+
+        document.getElementById('switzerland').addEventListener('click', function() {
+            window.open('https://en.wikipedia.org/wiki/Switzerland', '_blank');
+        });
+
+        document.getElementById('thailand').addEventListener('click', function() {
+            window.open('https://en.wikipedia.org/wiki/Thailand', '_blank');
+        });
+    </script>
+
 </body>
 </html>
